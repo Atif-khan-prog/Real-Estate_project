@@ -52,7 +52,7 @@ py-4 pt-20 px-6 md:px-20 lg:px-32 my-20 w-full overflow-hidden'
                 </button>
             </div>
             {/* Slider Container  */}
-            <div className="overflow-hidden">
+            <div className="overflow-x-scroll">
                 <div className='flex gap-8 transition-transform duration-500 ease-in-out'
                     style={{
                         transform: `translateX(-${(currentIndex * 100) / cardsToShow}%)`
