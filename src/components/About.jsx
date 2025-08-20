@@ -1,5 +1,5 @@
 import React from 'react'
-import { assets } from '../assets/assets'
+import { assets,footerInfo } from '../assets/assets'
 import {motion} from 'framer-motion'
 import { toast } from 'react-toastify'
 const About = () => {
@@ -44,7 +44,8 @@ const About = () => {
                         </div>
 
                     </div>
-                    <p className='my-10 max-w-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In sit aperiam libero reiciendis aspernatur magni doloremque dicta nobis. Soluta natus quos quibusdam consequuntur ipsam aut quis animi illo odio. Necessitatibus.</p>
+                    <p className='my-10 max-w-lg'>
+                        {footerInfo.info}</p>
                     <button className='bg-blue-600 text-white py-2 px-7 rounded cursor-pointer' onClick={() => toast.info('comming soon')}>Learn More</button>
 
                 </div>
