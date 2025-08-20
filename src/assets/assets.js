@@ -86,7 +86,7 @@ export const projectsData = [
         image: profile_img_2,
         alt: "Portrait of Richard Nelson",
         rating: 4,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "I found my dream home thanks to AK - Real Estate. The process was smooth, and the team was very supportive throughout."
     },
     {
         name: "James Washington",
@@ -94,6 +94,14 @@ export const projectsData = [
         image: profile_img_3,
         alt: "Portrait of James Washington",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Professional service and great listings! They helped me invest in a property that exceeded my expectations."
     }
+
+    
 ];
+
+export const footerInfo = {
+    info: 'At AK Real Estate, we are committed to helping you find the perfect property that matches your lifestyle and investment goals. With years of trusted service, we provide reliable guidance, transparent dealings, and personalized support for every client. Whether you are buying your first home, searching for a commercial space, or looking to invest in real estate, AK Real Estate is here to turn your vision into reality.',
+    copyright: 'Copyright 2025  &copy; Muhammad Atif. All Right Reserved.',
+    newsInfo: 'The Latest news, articles, and resources, sent to your inbox weekly'
+  }

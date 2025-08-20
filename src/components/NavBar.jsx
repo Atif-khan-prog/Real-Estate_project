@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { assets } from "../assets/assets";
+import { toast } from "react-toastify";
 
 const NavBar = () => {
   const [crossBtn, setCrossBtn] = useState(false);
@@ -25,7 +26,8 @@ const NavBar = () => {
           <a href="#Testimonials" className="menu">Testimonials</a>
         </ul>
 
-        <button className="hidden md:block bg-white text-black px-8 py-2 rounded-full cursor-pointer hover:bg-gray-200">
+        <button onClick={() => toast.info('Coming Soon')}
+        className="hidden md:block bg-white text-black px-8 py-2 rounded-full cursor-pointer hover:bg-gray-200">
           Sign Up
         </button>
 

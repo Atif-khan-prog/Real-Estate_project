@@ -1,9 +1,14 @@
 import React from 'react'
 import { assets } from '../assets/assets'
-
+import {motion} from 'framer-motion'
 const About = () => {
     return (
-        <div className='flex flex-col justify-center items-center
+        <motion.div 
+        initial={{opacity: 0, x:200}}
+                transition={{duration: 1}}
+                whileInView={{opacity: 1, x: 0}}
+                viewport={{once:true}}
+        className='flex flex-col justify-center items-center
     container mx-auto p-14 md:px-20 lg:pd-32
      w-full overflow-hidden' id='About'>
             <h1 className='text-2xl sm:text-4xl font-bold
@@ -43,7 +48,7 @@ const About = () => {
 
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 
