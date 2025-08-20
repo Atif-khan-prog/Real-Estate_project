@@ -1,6 +1,7 @@
 import React from 'react'
 import { assets } from '../assets/assets'
 import {motion} from 'framer-motion'
+import { toast } from 'react-toastify'
 const About = () => {
     return (
         <motion.div 
@@ -44,7 +45,7 @@ const About = () => {
 
                     </div>
                     <p className='my-10 max-w-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In sit aperiam libero reiciendis aspernatur magni doloremque dicta nobis. Soluta natus quos quibusdam consequuntur ipsam aut quis animi illo odio. Necessitatibus.</p>
-                    <button className='bg-blue-600 text-white py-2 px-7 rounded'>Learn More</button>
+                    <button className='bg-blue-600 text-white py-2 px-7 rounded cursor-pointer' onClick={() => toast.info('comming soon')}>Learn More</button>
 
                 </div>
             </div>

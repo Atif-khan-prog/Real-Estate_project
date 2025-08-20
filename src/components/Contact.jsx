@@ -6,7 +6,7 @@ const Contact = () => {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending....");
+    setResult('Sending...');
     const formData = new FormData(event.target);
 
     formData.append("access_key", '68696fba-be14-4148-9338-3dae23b16758');
@@ -19,7 +19,7 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("");
+      setResult(toast.done());
       toast.success('Form Submitted Successfully')
       event.target.reset();
     } else {
@@ -36,7 +36,7 @@ const Contact = () => {
       viewport={{ once: true }}
       className='text-center p-6 py-20 lg:px-32 w-full overflow-hidden' id='contact'>
       <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>Contact
-        <span className='underline underline-offset-4 decoration-1 under'>With Us</span></h1>
+        <span className='underline underline-offset-4 decoration-1 under mx-1 font-light'>With Us</span></h1>
       <p className='text-center text-gray-500 mb-12 max-w-80 mx-auto'>Ready To Move? Contact with Us</p>
       <form onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600'>
         <div className='flex flex-wrap'>
