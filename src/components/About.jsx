@@ -25,7 +25,7 @@ const About = () => {
                 2xl:pr-28'>
                         <div>
                             <p className='text-4xl font-medium text-gray-800'>10+</p>
-                            <p>Year Of Experience</p>
+                            <p>Years Of Experience</p>
                         </div>
 
                         <div>
@@ -40,7 +40,7 @@ const About = () => {
 
                         <div>
                             <p className='text-4xl font-medium text-gray-800'>25+</p>
-                            <p>On Goind Projects </p>
+                            <p>On Going Projects </p>
                         </div>
 
                     </div>
