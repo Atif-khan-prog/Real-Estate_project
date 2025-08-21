@@ -41,7 +41,7 @@ const Footer = () => {
                         border-gray-700 focus:outline-none w-full md:w-auto' required />
                             <button className='py-2 px-4 mx-2 cursor-pointer
                          hover:bg-blue-400 rounded
-                          bg-blue-500'
+                          bg-blue-500 sm:mt-2'
                                 onClick={() => toast.success('Subscribed Successfully')}>Subscribe</button>
                         </form>
 
