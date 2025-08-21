@@ -33,7 +33,7 @@ const Footer = () => {
                     <p className='text-gray-400 mx-w-80'>
                         {footerInfo.newsInfo}
                     </p>
-                    <div className='flex gap-2 mt-3'>
+                    <div className='flex gap-2 mt-3 sm:mt-2'>
 
                         <form>
                             <input type="email" placeholder='Enter Your Email'
